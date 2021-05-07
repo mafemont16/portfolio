@@ -2439,6 +2439,20 @@ html.no-csstransitions .home-content__main {
     max-width: 200px;
     padding-top: 10px;
 }
+/* ===================================================================
+ * # icons tech 
+ *
+ * ------------------------------------------------------------------- */
+.devicon-html5-plain,
+.devicon-css3-plain,
+.devicon-javascript-plain,
+.devicon-bootstrap-plain,
+.devicon-react-original,
+.devicon-github-original,
+.devicon-wordpress-plain {
+    font-size: 45px;
+    color: #ced4da;
+}
 
 /* ===================================================================
  * # works - (_site-layout.scss)
