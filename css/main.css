@@ -2236,7 +2236,7 @@ html.no-csstransitions .home-content__main {
 
 .s-about {
     padding-top: 10rem;
-    padding-bottom: 10rem;
+    padding-bottom: 0rem;
     background-color: #ffffff;
     position: relative;
 }
@@ -2393,6 +2393,42 @@ html.no-csstransitions .home-content__main {
     .timeline__block {
         padding-left: 5.5rem;
     }
+}
+/* ===================================================================
+ * # Education Logos - (_site-layout.scss)
+ *
+ * ------------------------------------------------------------------- */
+
+.education-section {
+    background-color: #fff;
+    margin: auto;
+}
+
+.kedge,
+.pn,
+.ec,
+.up {
+    filter: grayscale(100%) brightness(60%) contrast(10000000%);
+    opacity: 0.3;
+}
+
+.kedge {
+    width: 150px;
+    padding-top: 10px;
+}
+
+.pn {
+    width: 200px;
+    padding-top: 17px;
+}
+
+.ec {
+    width: 220px;
+}
+
+.up {
+    width: 200px;
+    padding-top: 10px;
 }
 
 /* ===================================================================
