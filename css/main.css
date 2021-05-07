@@ -2410,7 +2410,7 @@ html.no-csstransitions .home-content__main {
 .education-section {
     background-color: #fff;
     margin: auto;
-    width: 66%;
+    width: 50%;
 }
 
 .kedge,
@@ -2449,9 +2449,16 @@ html.no-csstransitions .home-content__main {
 .devicon-bootstrap-plain,
 .devicon-react-original,
 .devicon-github-original,
-.devicon-wordpress-plain {
+.devicon-wordpress-plain,
+.devicon-figma-plain,
+.devicon-sass-original {
     font-size: 45px;
     color: #ced4da;
+}
+
+.tech-icons {
+    width: 50%;
+    padding-bottom: 80px;
 }
 
 /* ===================================================================
