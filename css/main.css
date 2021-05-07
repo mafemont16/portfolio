@@ -2410,6 +2410,7 @@ html.no-csstransitions .home-content__main {
 .education-section {
     background-color: #fff;
     margin: auto;
+    width: 66%;
 }
 
 .kedge,
@@ -2421,21 +2422,21 @@ html.no-csstransitions .home-content__main {
 }
 
 .kedge {
-    width: 150px;
+    width: 120px;
     padding-top: 10px;
 }
 
 .pn {
-    width: 200px;
+    max-width: 200px;
     padding-top: 17px;
 }
 
 .ec {
-    width: 220px;
+    max-width: 220px;
 }
 
 .up {
-    width: 200px;
+    max-width: 200px;
     padding-top: 10px;
 }
 
