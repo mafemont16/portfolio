@@ -1760,7 +1760,6 @@ input::-moz-focus-inner {
 
 .s-home {
     width: 100%;
-    height: 100%;
     min-height: 786px;
     background-color: transparent;
     position: relative;
@@ -1802,8 +1801,8 @@ input::-moz-focus-inner {
     display: table-cell;
     width: 100%;
     height: 100%;
-    vertical-align: bottom;
-    padding-bottom: 150px;
+    vertical-align: top;
+    padding-top: 200px;
     position: relative;
 }
 
@@ -1869,8 +1868,6 @@ input::-moz-focus-inner {
 }
 
 .scroll-down {
-    display: flex;
-    flex-direction: column;
     text-align: center;
 }
 
@@ -1922,8 +1919,8 @@ input::-moz-focus-inner {
     list-style: none;
     margin: 0;
     position: absolute;
-    bottom: 22px;
-    right: 50px;
+    bottom: 15px;
+    right: 55px;
 }
 
 .home-social::after {
@@ -1945,7 +1942,7 @@ input::-moz-focus-inner {
 
 .home-social li {
     position: relative;
-    height: 3.6rem;
+    height: 4.6rem;
 }
 
 .home-social i,
@@ -2433,6 +2430,7 @@ html.no-csstransitions .home-content__main {
 
 .ec {
     max-width: 220px;
+    padding-top: 10px;
 }
 
 .up {
@@ -2489,7 +2487,46 @@ html.no-csstransitions .home-content__main {
     clear: both;
 }
 
-.masonry .grid-sizer,
+#portfolio {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 40px 80px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    z-index: 1;
+    width: 84vw;
+}
+@media screen and (max-width: 640px) {
+    #portfolio {
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px 0;
+        margin-bottom: 100px;
+    }
+}
+
+.title_project {
+    margin-top: 10px;
+}
+.title_text {
+    margin-bottom: 10px;
+}
+
+.portfolio_item {
+    padding: 18px;
+    padding-top: 40px;
+}
+
+.portfolio_image {
+    transition-duration: 0.3s;
+}
+
+.portfolio_image:hover {
+    cursor: pointer;
+    transition-duration: 0.3s;
+    transition: transform 0.2s ease, color 0.2s ease;
+}
+
+/*.masonry .grid-sizer,
 .masonry__brick {
     width: 400px;
 }
@@ -2636,7 +2673,7 @@ html.no-csstransitions .home-content__main {
 .item-folio__project-link:active {
     background-color: #ffffff;
     color: #000000;
-}
+}*/
 
 /* on hover */
 
