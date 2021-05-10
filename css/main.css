@@ -2518,6 +2518,7 @@ html.no-csstransitions .home-content__main {
 
 .portfolio_image {
     transition-duration: 0.3s;
+    transition: transform 0.2s ease, color 0.2s ease;
 }
 
 .portfolio_image:hover {
