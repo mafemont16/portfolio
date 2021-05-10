@@ -2256,9 +2256,20 @@ html.no-csstransitions .home-content__main {
     top: 62px;
 }
 
-@media only screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
     .image-maria {
         display: none;
+    }
+    .about-col {
+        display: block;
+    }
+}
+@media screen and (max-width: 400px) {
+    .image-maria {
+        display: none;
+    }
+    .about-col {
+        display: block;
     }
 }
 
@@ -2466,8 +2477,7 @@ html.no-csstransitions .home-content__main {
 
 .s-works {
     padding-top: 15rem;
-    padding-bottom: 15.6rem;
-    background-color: #fff6ec;
+    background-color: #fff;
     position: relative;
 }
 
