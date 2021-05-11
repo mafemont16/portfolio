@@ -518,6 +518,10 @@ td:last-child {
     -webkit-overflow-scrolling: touch;
 }
 
+.line-dividing {
+    margin-top: 10rem;
+}
+
 /* ------------------------------------------------------------------- 
  * ## Spacing - (_document-setup.scss)  
  * ------------------------------------------------------------------- */
@@ -1333,17 +1337,17 @@ input::-moz-focus-inner {
 }
 
 .section-intro.has-bottom-sep {
-    padding-bottom: 1.5rem;
+    padding-bottom: 6.5rem;
     position: relative;
 }
 
-.section-intro.has-bottom-sep::after {
+/*.section-intro.has-bottom-sep::after {
     display: inline-block;
     height: 1px;
     width: 240px;
     background-color: rgba(0, 0, 0, 0.1);
     text-align: center;
-}
+} */
 
 /* ------------------------------------------------------------------- 
  * responsive:
@@ -1760,7 +1764,7 @@ input::-moz-focus-inner {
 
 .s-home {
     width: 100%;
-    min-height: 786px;
+    min-height: 650px;
     background-color: transparent;
     position: relative;
     display: table;
@@ -1802,7 +1806,7 @@ input::-moz-focus-inner {
     width: 100%;
     height: 100%;
     vertical-align: top;
-    padding-top: 200px;
+    padding-top: 130px;
     position: relative;
 }
 
@@ -1919,7 +1923,7 @@ input::-moz-focus-inner {
     list-style: none;
     margin: 0;
     position: absolute;
-    bottom: 15px;
+    bottom: 100px;
     right: 55px;
 }
 
@@ -2181,10 +2185,10 @@ html.no-csstransitions .home-content__main {
         left: 125px;
     }
     .home-social {
-        padding-bottom: 10.8rem;
+        padding-bottom: 0;
     }
     .home-social::after {
-        height: 10.2rem;
+        height: 9rem;
     }
 }
 
@@ -2476,7 +2480,7 @@ html.no-csstransitions .home-content__main {
  * ------------------------------------------------------------------- */
 
 .s-works {
-    padding-top: 15rem;
+    padding-top: 5rem;
     background-color: #fff;
     position: relative;
 }
@@ -2499,6 +2503,7 @@ html.no-csstransitions .home-content__main {
 
 #portfolio {
     display: grid;
+    margin: auto;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 40px 80px;
     margin-top: 50px;
