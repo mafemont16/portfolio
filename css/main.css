@@ -1401,7 +1401,7 @@ html.no-csstransitions .home-content__main {
         left: 125px;
     }
     .home-social {
-        padding-bottom: 0;
+        bottom: 25px;
     }
     .home-social::after {
         height: 9rem;
@@ -1423,6 +1423,9 @@ html.no-csstransitions .home-content__main {
         width: 85%;
         margin-top: 150px;
     }
+    .home-social {
+        bottom: 25px;
+    }
 }
 
 @media only screen and (max-width: 400px) {
@@ -1441,7 +1444,7 @@ html.no-csstransitions .home-content__main {
         width: 100%;
     }
     .home-social {
-        display: none;
+        bottom: 25px;
     }
 }
 
@@ -1482,6 +1485,7 @@ html.no-csstransitions .home-content__main {
     }
     .about-col {
         display: block;
+        width: 100%;
     }
 }
 @media screen and (max-width: 400px) {
@@ -1490,6 +1494,7 @@ html.no-csstransitions .home-content__main {
     }
     .about-col {
         display: block;
+        width: 100%;
     }
 }
 
