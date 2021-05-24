@@ -633,8 +633,9 @@ button.btn--primary:focus,
 input[type="submit"].btn--primary:focus,
 input[type="reset"].btn--primary:focus,
 input[type="button"].btn--primary:focus {
-    background: #3d4b7d;
+    background: #fa978800;
     border-color: #3d4b7d;
+    color: #3d4b7d;
 }
 
 /* button modifiers
@@ -1095,7 +1096,7 @@ input::-moz-focus-inner {
 
 .home-content h1 {
     font-family: "librebaskerville-bold", serif;
-    color: #3b3b3b;
+    color: rgb(41, 40, 40);
     font-size: 6rem;
     line-height: 1.35;
     margin-top: 0;
@@ -1326,7 +1327,7 @@ html.no-csstransitions .home-content__main {
 
 @media only screen and (max-width: 1500px) {
     .home-content h1 {
-        font-size: 5.2rem;
+        font-size: 4.8rem;
     }
     .home-content__main {
         max-width: 1000px;
@@ -1335,7 +1336,7 @@ html.no-csstransitions .home-content__main {
 
 @media only screen and (max-width: 1200px) {
     .home-content h1 {
-        font-size: 5rem;
+        font-size: 4.7rem;
     }
     .home-content br {
         display: none;
@@ -1350,7 +1351,7 @@ html.no-csstransitions .home-content__main {
 
 @media only screen and (max-width: 1000px) {
     .home-content h1 {
-        font-size: 4.8rem;
+        font-size: 4.7rem;
     }
     .home-content__main {
         padding-right: 40px;
@@ -1475,8 +1476,18 @@ html.no-csstransitions .home-content__main {
 .image-maria {
     width: 309px;
     position: absolute;
-    right: 4px;
-    top: 62px;
+    right: -20px;
+    top: 118px;
+}
+
+@media screen and (max-width: 800px) {
+    .image-maria {
+        display: none;
+    }
+    .about-col {
+        display: block;
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -1644,6 +1655,7 @@ html.no-csstransitions .home-content__main {
     background-color: #fff;
     margin: auto;
     width: 50%;
+    padding-top: 50px;
 }
 
 .kedge,
@@ -1753,42 +1765,12 @@ html.no-csstransitions .home-content__main {
 
 .portfolio_image {
     transition-duration: 0.3s;
-    transition: transform 0.2s ease, color 0.2s ease;
 }
 
 .portfolio_image:hover {
     cursor: pointer;
-    transition-duration: 0.3s;
-    transition: transform 0.2s ease, color 0.2s ease;
-}
-
-/* on hover */
-
-.item-folio:hover .item-folio__thumb a::before {
-    opacity: 1;
-    visibility: visible;
-}
-
-.item-folio:hover .item-folio__thumb a::after {
-    opacity: 1;
-    visibility: visible;
-    -webkit-transform: scale(1);
-    -ms-transform: scale(1);
-    transform: scale(1);
-}
-
-.item-folio:hover .item-folio__thumb img {
-    -webkit-transform: scale(1.05);
-    -ms-transform: scale(1.05);
-    transform: scale(1.05);
-}
-
-.item-folio:hover .item-folio__project-link {
-    opacity: 1;
-    visibility: visible;
-    -webkit-transform: translate3d(0, 0, 0);
-    -ms-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
+    opacity: 0.5;
+    filter: grayscale(1);
 }
 
 /* ------------------------------------------------------------------- 
@@ -1950,7 +1932,7 @@ footer {
     font-family: "montserrat-regular", sans-serif;
     background-color: #3d4b7d;
     font-size: 14px;
-    padding: 6.6rem 0 4.2rem;
+    padding: 5rem 0 0;
     text-align: center;
     color: rgba(255, 255, 255, 0.2);
 }
@@ -2018,6 +2000,10 @@ footer a:focus {
     color: #ffffff;
 }
 
+.footer-social li a:hover {
+    color: #fa9778;
+}
+
 .footer-social li:last-child {
     margin-right: 0;
 }
@@ -2033,6 +2019,7 @@ footer a:focus {
 
 .footer-bottom .copyright span {
     display: inline-block;
+    margin-bottom: 30px;
 }
 
 .footer-bottom .copyright span::after {
