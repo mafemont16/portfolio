@@ -967,6 +967,17 @@ input::-moz-focus-inner {
     text-decoration: underline;
 }
 
+.circle {
+    position: relative;
+    top: 11px;
+    left: 26px;
+    z-index: -1;
+    width: 37px;
+}
+.circle:hover {
+     box-shadow: #3d4b7d;
+}
+
 /* ------------------------------------------------------------------- 
  * responsive:
  * header
@@ -1579,6 +1590,10 @@ html.no-csstransitions .home-content__main {
 .timeline__desc p {
     margin: 0;
     padding-bottom: 3rem;
+}
+
+.job-title {
+    margin-bottom: 30px;
 }
 
 /* ------------------------------------------------------------------- 
