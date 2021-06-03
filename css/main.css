@@ -1700,6 +1700,33 @@ html.no-csstransitions .home-content__main {
     max-width: 200px;
     padding-top: 10px;
 }
+
+@media only screen and (max-width: 800px) {
+    .kedge,
+    .pn,
+    .ec,
+    .up {
+    width: auto;    
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .kedge,
+    .pn,
+    .ec,
+    .up {
+    width: auto;    
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .kedge,
+    .pn,
+    .ec,
+    .up {
+    width: auto;    
+    }
+}
 /* ===================================================================
  * # icons tech 
  *
