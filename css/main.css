@@ -967,15 +967,15 @@ input::-moz-focus-inner {
     text-decoration: underline;
 }
 
-.circle {
+.circle-lang {
     position: relative;
     top: 11px;
     left: 26px;
     z-index: -1;
     width: 37px;
 }
-.circle:hover {
-     box-shadow: #3d4b7d;
+.circle-lang:hover {
+    box-shadow: #3d4b7d;
 }
 
 /* ------------------------------------------------------------------- 
