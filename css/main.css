@@ -952,7 +952,7 @@ input::-moz-focus-inner {
 .header-nav li {
     display: inline-block;
     padding-left: 0;
-    margin-right: 2rem;
+    margin-right: 6rem;
 }
 
 .header-nav li a {
@@ -997,12 +997,18 @@ input::-moz-focus-inner {
         background-color: #fff;
         padding: 120px 40px 21px;
     }
+
+    .header-nav li {
+        margin-right: 4rem;
+    }
+    
     .header-nav-wrap .header-nav {
         display: block;
         height: auto;
         margin: 0 0 4.2rem 0;
         border-top: 1px solid rgba(255, 255, 255, 0.07);
     }
+
     .header-nav-wrap .header-nav li {
         display: block;
         margin: 0;
@@ -1015,6 +1021,12 @@ input::-moz-focus-inner {
     }
     .header-menu-toggle {
         display: block;
+    }
+}
+
+@media only screen and (max-width: 1000px) { 
+    .header-nav li {
+        margin-right: 4rem;
     }
 }
 
@@ -1077,7 +1089,7 @@ input::-moz-focus-inner {
     width: 100%;
     height: 100%;
     vertical-align: top;
-    padding-top: 130px;
+    padding-top: 80px;
     position: relative;
 }
 
@@ -1108,9 +1120,10 @@ input::-moz-focus-inner {
 .home-content h1 {
     font-family: "librebaskerville-bold", serif;
     color: rgb(41, 40, 40);
-    font-size: 6rem;
+    font-size: 7rem;
     line-height: 1.35;
     margin-top: 0;
+    margin-left: -28px;
 }
 
 .home-content__main {
@@ -1339,6 +1352,7 @@ html.no-csstransitions .home-content__main {
 @media only screen and (max-width: 1500px) {
     .home-content h1 {
         font-size: 4.8rem;
+        margin-left: -32px;
     }
     .home-content__main {
         max-width: 1000px;
@@ -1383,7 +1397,6 @@ html.no-csstransitions .home-content__main {
     .home-content h3 {
         font-size: 1.6rem;
         padding-left: 50px;
-        margin-left: -10px;
     }
     .home-content h3::before {
         width: 40px;
@@ -1426,14 +1439,17 @@ html.no-csstransitions .home-content__main {
     }
     .home-content h3 {
         font-size: 1.5rem;
+        margin: 10px;
     }
     .home-content h1 {
         font-size: 3.8rem;
+        margin: 10px 10px;
+
     }
     .home-content__main {
         max-width: none;
         width: 85%;
-        margin-top: 150px;
+        margin-top: 100px;
     }
     .home-social {
         bottom: 25px;
@@ -1446,7 +1462,13 @@ html.no-csstransitions .home-content__main {
     }
     .home-content h1 {
         font-size: 3.5rem;
+        margin: 10px 10px;
     }
+    .home-content h3 {
+        margin: 10px;
+
+    }
+
     .home-content__main {
         width: auto;
         margin-left: 25px;
