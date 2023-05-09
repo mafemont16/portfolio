@@ -377,11 +377,10 @@ input[type="password"], textarea {
     clear: both;
 }
 
-.row .row {
+.row {
     width: auto;
     max-width: none;
-    margin-left: -20px;
-    margin-right: -20px;
+  
 }
 
 
@@ -397,7 +396,7 @@ input[type="password"], textarea {
 }
 
 [class*="col-"] {
-    padding: 0 20px;
+    padding: 0 0px;
 }
 
 
