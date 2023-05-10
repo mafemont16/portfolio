@@ -2,7 +2,6 @@
 
  * ------------------------------------------------------------------- */
 
-@import url("iconic/css/iconmonstr-iconic-font.min.css");
 @import url("fonts.css");
 
 /* ===================================================================
@@ -27,7 +26,7 @@ body {
 
 body {
     background: #FEFCF4;
-    font-family: "montserrat-light", sans serif;
+    font-family: "montserrat-light", sans-serif;
     font-size: 1.6rem;
     line-height: 1.875;
     color: #0d0a0b;
@@ -273,7 +272,7 @@ ul.disc li::before {
     width: 8px;
     height: 8px;
     border-radius: 50%;
-    background: #3d4b7d;
+    background: #B696F7;
     position: absolute;
     left: -17px;
     top: 11px;
@@ -282,7 +281,7 @@ ul.disc li::before {
 
 dt {
     margin: 0;
-    color: #3d4b7d;
+    color: #B696F7;
 }
 
 dd {
@@ -334,7 +333,7 @@ button,
 }
 
 .pace .pace-progress {
-    background: #3d4b7d;
+    background: #B696F7;
     position: fixed;
     z-index: 900;
     top: 0;
@@ -1564,7 +1563,6 @@ footer {
     font-size: 14px;
     padding: 5rem 0 0;
     text-align: center;
-    /* color: rgba(255, 255, 255, 0.4); */
     color: #0d0a0b;
 
 }
@@ -1690,7 +1688,7 @@ footer a:focus {
     width: 60px;
     line-height: 60px;
     text-align: center;
-    background: #0e0b0b;
+    background: #e3d9fc;
     color: rgb(255, 255, 255);
     text-align: center;
     text-transform: uppercase;
