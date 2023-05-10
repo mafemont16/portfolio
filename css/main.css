@@ -868,7 +868,7 @@ input[type="button"].btn--primary:focus {
  * ------------------------------------------------------------------- */
 
 .home-content {
-    padding-top: 200px;
+    padding-top: 20vw;
     display: grid;
     max-width: 1200px;
 }
@@ -972,7 +972,7 @@ input[type="button"].btn--primary:focus {
         padding: 0rem;
     }
 }
-@media only screen and (max-width: 1000px) {
+/* @media only screen and (max-width: 1000px) {
     .s-home {
         padding: 2rem;
     }
@@ -982,12 +982,12 @@ input[type="button"].btn--primary:focus {
     .s-home {
         padding: 2rem;
     }
-}
-@media only screen and (max-width: 1500px) {
+} */
+/* @media only screen and (max-width: 1500px) {
     .s-home {
         padding: 5rem;
     }
-}
+} */
 
  @media only screen and (max-width: 1500px) {
     .home-content h1 {
@@ -1015,6 +1015,10 @@ input[type="button"].btn--primary:focus {
     .home-content h1 {
         font-size: 4.7rem;
     }
+    .home-content h2 {
+        font-size: 2.4rem;
+        margin: 30px 0px;
+    }
     .home-content__main {
         padding-right: 40px;
         max-width: 680px;
@@ -1026,6 +1030,10 @@ input[type="button"].btn--primary:focus {
     .home-content h1 {
         font-size: 4.4rem;
     }
+    .home-content h2 {
+        font-size: 2.1rem;
+        margin: 30px 0px;
+    }
     .home-content__main {
         max-width: 600px;
     }
@@ -1034,15 +1042,16 @@ input[type="button"].btn--primary:focus {
 @media only screen and (max-width: 600px) {
     .home-content {
         padding-bottom: 0rem;
-        padding-top: 12rem;
-
+        /* padding-top: 12rem; */
     }
     .home-content h1 {
         font-size: 4.2rem;
     }
-    .home-content__main {
-        padding: 0;
+    .home-content h2 {
+        font-size: 2rem;
+        margin: 30px 0px;
     }
+  
     .home-content__scroll {
         position: absolute;
         bottom: -120px;
@@ -1059,22 +1068,19 @@ input[type="button"].btn--primary:focus {
 @media only screen and (max-width: 500px) {
     .home-content {
         min-height: 654px;
-        padding-top: 12rem;
-
     }
-    .home-content h3 {
-        font-size: 1.5rem;
-        margin: 10px;
-    }
+   
     .home-content h1 {
         font-size: 3.8rem;
-        margin: 10px 10px;
-
+    }
+    .home-content h2 {
+        font-size: 2rem;
+        margin: 30px 0px;
     }
     .home-content__main {
-        max-width: none;
-        width: 85%;
-        margin-top: 100px;
+        /* max-width: none; */
+        /* width: 85%; */
+        /* margin-top: 100px; */
     }
     .home-social {
         bottom: 25px;
@@ -1084,27 +1090,31 @@ input[type="button"].btn--primary:focus {
 @media only screen and (max-width: 400px) {
     .home-content {
         vertical-align: middle;
-        padding-top: 5;
-        padding-top: 12rem;
+        /* padding-top: 5;
+        padding-top: 12rem; */
 
     }
     .home-content h1 {
         font-size: 3.5rem;
-        margin: 10px 10px;
+        margin: 10px 0px;
     }
-    .home-content h3 {
+    .home-content h2 {
+        font-size: 2rem;
+        margin: 30px 0px;
+    }
+    /* .home-content h3 {
         margin: 10px;
 
-    }
+    } */
 
     .home-content__main {
         width: auto;
-        margin-left: 25px;
-        margin-right: 25px;
+        /* margin-left: 25px;
+        margin-right: 25px; */
     }
-    .home-content__buttons .btn {
+    /* .home-content__buttons .btn {
         width: 100%;
-    }
+    } */
     .home-social {
         bottom: 25px;
     }
@@ -1145,6 +1155,7 @@ input[type="button"].btn--primary:focus {
  @media only screen and (max-width: 600px) {
     #about-section {
         display: block;
+        margin: 0;
     }
     .education-section {
         display: flex;
@@ -1273,8 +1284,7 @@ input[type="button"].btn--primary:focus {
  * ------------------------------------------------------------------- */
 
 .education-section {
-    margin-top: 100px;
-    padding: 50px 0 20px 0;
+    padding: 70px 0 20px 0;
 }
 
 .kedge,
@@ -1439,7 +1449,7 @@ input[type="button"].btn--primary:focus {
 
 @media only screen and (max-width: 1099px) {
     .masonry-wrap {
-        width: 90%;
+        width: 100%;
         max-width: 800px;
     }
     .masonry .grid-sizer,
@@ -1689,7 +1699,7 @@ footer a:focus {
     line-height: 60px;
     text-align: center;
     background: #e3d9fc;
-    color: rgb(255, 255, 255);
+    color: #2c2727;
     text-align: center;
     text-transform: uppercase;
     -webkit-transition: all 0.3s ease-in-out;
