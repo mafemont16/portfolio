@@ -1541,7 +1541,7 @@ input[type="button"].btn--primary:focus {
     .column-2 {
         flex-wrap: wrap;
         flex-direction: column;
-        padding: 0px 40px 0 40px;
+        padding: 0px 90px 0 90px;
         width: 100%;
     }
     
@@ -1566,7 +1566,7 @@ input[type="button"].btn--primary:focus {
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
-        padding: 0px 40px 40px 40px;
+        padding: 0px 90px 40px 90px;
         width: 100%;
     }
 }
