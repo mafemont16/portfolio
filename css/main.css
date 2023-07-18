@@ -747,6 +747,8 @@ input[type="button"].btn--primary:focus {
     list-style: none;
     margin: 0;
     height: 72px;
+    padding-right: 22px;
+
 }
 
 .header-nav li {
