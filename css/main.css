@@ -585,7 +585,7 @@ input[type="button"].btn--primary:focus {
 .s-header.sticky {
     position: fixed;
     top: 0;
-    background-color: #ede9e6;
+    background-color: #fffefa;
     border-bottom: 0.5px solid rgba(0, 0, 0, 0.2);
     visibility: hidden;
     z-index: 600;
