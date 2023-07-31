@@ -48,7 +48,7 @@ a {
 a:hover,
 a:focus,
 a:active {
-    color: #fc7942;
+    color: #b0bbe3;
 }
 
 a:focus {
@@ -272,7 +272,7 @@ ul.disc li::before {
     width: 8px;
     height: 8px;
     border-radius: 50%;
-    background: #fc7942;
+    background: #b0bbe3;
     position: absolute;
     left: -17px;
     top: 11px;
@@ -281,7 +281,7 @@ ul.disc li::before {
 
 dt {
     margin: 0;
-    color: #fc7942;
+    color: #b0bbe3;
 }
 
 dd {
@@ -333,7 +333,7 @@ button,
 }
 
 .pace .pace-progress {
-    background: #fc7942;
+    background: #b0bbe3;
     position: fixed;
     z-index: 900;
     top: 0;
@@ -377,7 +377,7 @@ button,
     margin-left: -30px;
     margin-top: -30px;
     padding: 0;
-    background-color: #fc7942;
+    background-color: #b0bbe3;
     border-radius: 100%;
     -webkit-animation: sk-scaleout 1s infinite ease-in-out;
     animation: sk-scaleout 1s infinite ease-in-out;
@@ -469,7 +469,7 @@ input[type="button"].btn--primary:hover,
 .btn.btn--primary:focus,
 button.btn--primary:focus,
 input[type="button"].btn--primary:focus {
-    background: #fc7942;
+    background: #b0bbe3;
     border-color: #d2dddc;
     color: #ede9e6;
     border-radius: 10px;
@@ -605,7 +605,7 @@ input[type="button"].btn--primary:focus {
 }
 
 .divider {
-    border-bottom: 1px dashed #fc7942;
+    border-bottom: 1px dashed #b0bbe3;
 
 }
 
@@ -673,7 +673,7 @@ input[type="button"].btn--primary:focus {
     top: 50%;
     right: auto;
     bottom: auto;
-    background-color: #fc7942;
+    background-color: #b0bbe3;
     -webkit-transition: all 0.5s ease-in-out;
     transition: all 0.5s ease-in-out;
     font: 0/0 a;
@@ -765,7 +765,7 @@ input[type="button"].btn--primary:focus {
 
 .header-nav li.current a {
     font-family: "montserrat-bold", sans-serif;
-    color: #fc7942;
+    color: #b0bbe3;
     text-decoration: underline;
 }
 
@@ -777,7 +777,7 @@ input[type="button"].btn--primary:focus {
     width: 37px;
 }
 .circle-lang:hover {
-    box-shadow: #fc7942;
+    box-shadow: #b0bbe3;
 }
 
 /* ------------------------------------------------------------------- 
@@ -939,7 +939,7 @@ input[type="button"].btn--primary:focus {
 }
 
 .home-social span {
-    color: #fc7942;
+    color: #b0bbe3;
     right: 3.6rem;
     font-size: 1.3rem;
     opacity: 0;
@@ -1278,7 +1278,7 @@ input[type="button"].btn--primary:focus {
 }
 
 .job-title {
-    color:#fc7942;
+    color:#b0bbe3;
 
 }
 .job {
@@ -1748,7 +1748,7 @@ footer a:focus {
 }
 
 .footer-social li a:hover {
-    color: #fc7942;
+    color: #b0bbe3;
 }
 
 .footer-social li:last-child {
@@ -1803,7 +1803,7 @@ footer a:focus {
     width: 60px;
     line-height: 60px;
     text-align: center;
-    background: #fc7942;
+    background: #b0bbe3;
     color: #d2dddc;
     text-align: center;
     text-transform: uppercase;
