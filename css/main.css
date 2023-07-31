@@ -1804,7 +1804,7 @@ footer a:focus {
     line-height: 60px;
     text-align: center;
     background: #b0bbe3;
-    color: #d2dddc;
+    color: #000;
     text-align: center;
     text-transform: uppercase;
     -webkit-transition: all 0.3s ease-in-out;
