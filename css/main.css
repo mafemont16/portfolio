@@ -1155,10 +1155,8 @@ input[type="button"].btn--primary:focus {
 }
 
 .about-content {
-    padding-top: 16vw;
-    /* padding-bottom: 16vw; */
+    padding-top: 10vw;
     display: grid;
-    max-width: 1200px;
 }
 
 /* ------------------------------------------------------------------- 
